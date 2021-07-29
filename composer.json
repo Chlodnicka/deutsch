@@ -1,0 +1,30 @@
+{
+    "name": "fritzi/deutsch",
+    "description": "Fritzi's repo to help german language learning",
+    "authors": [
+        {
+            "name": "fritzi",
+            "email": "chlodnicka.maja@gmail.com"
+        }
+    ],
+    "require": {
+        "myclabs/php-enum": "^1.8",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Deutsch\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Deutsch\\Tests\\": "tests/"
+        }
+    }
+}
